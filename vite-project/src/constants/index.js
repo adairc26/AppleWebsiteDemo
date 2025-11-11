@@ -74,6 +74,44 @@ const performanceImgPositions = [
     },
 ];
 
+const performanceImgPositionsMobile = [
+    {
+        id: "p1",
+        left: 25,
+        bottom: 55,
+    },
+    {
+        id: "p2",
+        right: 25,
+        bottom: 50,
+    },
+    {
+        id: "p3",
+        right: 28,
+        bottom: 38,
+    },
+    {
+        id: "p4",
+        right: 25,
+        bottom: 20,
+    },
+    {
+        id: "p5",
+        left: 30,
+        bottom: 42,
+    },
+    {
+        id: "p6",
+        left: 28,
+        bottom: 28,
+    },
+    {
+        id: "p7",
+        left: 25,
+        bottom: 12,
+    },
+];
+
 const features = [
     {
         id: 1,
@@ -136,4 +174,5 @@ export {
     noChangeParts,
     performanceImages,
     performanceImgPositions,
+    performanceImgPositionsMobile,
 };
